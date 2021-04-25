@@ -112,3 +112,18 @@ nav {
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
 }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  background-color: #fcd1d1;
+  font-family: "Poppins", sans-serif;
+}
+
+.ft-social-list {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
