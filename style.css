@@ -146,6 +146,7 @@ img {
 .container {
   display: flex;
   justify-content: center;
+  padding: 20px;
   }
 
 h1 {
@@ -162,7 +163,7 @@ p {
   justify-content: center;
   font-family: "Poppins", sans-serif;
   background-color: rgba(255, 255, 255, 0.801);
-  padding: 20px 50px 20px 50px;
+  padding: 50px;
   border: 2px solid #fcd1d1 ;
   border-radius: 200px;
   margin: 50px 150px;
