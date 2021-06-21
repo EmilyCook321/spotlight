@@ -5,12 +5,14 @@
 }
 
 body {
-  background-image: radial-gradient(#d3e0dc 20%, transparent 20%),
+  background-image: radial-gradient(20%, transparent 20%),
     radial-gradient(pink 20%, transparent 20%);
   background-color: rgba(255, 255, 255, 0.801);
   background-position: 0 0, 50px 50px;
   background-size: 100px 100px;
 }
+
+
 
 nav {
   display: flex;
@@ -52,8 +54,8 @@ nav {
   width: 25px;
   height: 3px;
   background-color: rgba(255, 255, 255, 0.801);
-  margin: 5px;
   transition: all 0.3s ease;
+  margin: 5px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -146,6 +148,7 @@ img {
 .container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   padding: 20px;
   }
 
@@ -159,15 +162,22 @@ margin-top: 2%;
 }
 
 p {
-  display: flex;
-  justify-content: center;
+flex-direction: column;
   font-family: "Poppins", sans-serif;
   background-color: rgba(255, 255, 255, 0.801);
-  padding: 50px;
   border: 2px solid #fcd1d1 ;
-  border-radius: 200px;
-  margin: 50px 150px;
+  padding: 50px;
+  margin: 50px;
+  border-radius: 100px;
 }
+
+.carousel-inner{
+  border: 2px solid #fcd1d1 ;
+  padding: 50px;
+}
+
+
+
 
 
 
