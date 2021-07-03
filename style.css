@@ -21,10 +21,6 @@ nav {
   font-family: "Poppins", sans-serif;
 }
 
-.responsive {
-  width: 100%;
-  height: auto;
-}
 
 .logo {
   color: rgba(255, 255, 255, 0.801);
@@ -143,8 +139,7 @@ footer {
 .container {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  padding: 20px;
+
   }
 
 h1 {
@@ -156,7 +151,7 @@ margin: 0 auto 50px;
 margin-top: 2%;
 }
 
-p {
+.p1 {
 flex-direction: column;
   font-family: "Poppins", sans-serif;
   background-color: rgba(255, 255, 255, 0.801);
@@ -169,8 +164,12 @@ flex-direction: column;
 .responsive {
   width: 100%;
   max-width: 400px;
-  border-radius: 100px;
-  height: auto,
+  height: auto;
+
+}
+
+.about {
+  float:right;
 }
 
 
