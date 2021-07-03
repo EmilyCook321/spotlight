@@ -12,8 +12,6 @@ body {
   background-size: 100px 100px;
 }
 
-
-
 nav {
   display: flex;
   justify-content: space-around;
@@ -21,6 +19,11 @@ nav {
   min-height: 8vh;
   background-color: #fcd1d1;
   font-family: "Poppins", sans-serif;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
 }
 
 .logo {
@@ -137,14 +140,6 @@ footer {
   justify-content: space-evenly;
 }
 
-img {
-  border: 2px solid #fcd1d1 ;
-  border-radius: 400px;
-  width: 20%;
- margin: 50px 150px;
-}
-
-
 .container {
   display: flex;
   justify-content: center;
@@ -171,14 +166,15 @@ flex-direction: column;
   border-radius: 100px;
 }
 
-.carousel-inner{
-  border: 2px solid #fcd1d1 ;
-  padding: 50px;
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 100px;
+  height: auto,
 }
 
-.twitter-timeline {
 
-}
+
 
 
 
